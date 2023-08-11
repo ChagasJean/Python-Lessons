@@ -7,6 +7,10 @@
 # AQUI É PARA IMPORTAR A FUNÇÃO DATE, PARA SABER O ANO DO SEU SISTEMA DO COMPUTADOR.
 from datetime import date
 
+print('-=-' * 10)
+print('     ALISTAMENTO MILITAR')
+print('-=-' * 10)
+
 # AQUI É PARA REGISTRAR O NASCIMENTO DO USUÁRIO.
 ano = int(input('Qual o ano do seu nascimento? '))
 
@@ -31,3 +35,7 @@ elif calculo > 18:
     print('Você já deveria ter se alistado há {} anos.'.format(saldo))
     ano3 = ano2 - saldo
     print('Seu alistamento foi em {}'.format(ano3))
+
+print('-=-' * 10)
+print('     FIM DO ALISTAMENTO')
+print('-=-' * 10)
