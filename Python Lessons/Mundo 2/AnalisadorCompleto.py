@@ -24,7 +24,7 @@ for p in range(1, 5):
     if sexo in 'Mm' and idade > mh:
         mh = idade
         nv = nome
-    if sexo in 'Ff' and idade > 20:
+    if sexo in 'Ff' and idade < 20:
         totm += 1
 
 mi = si / 4
