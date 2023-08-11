@@ -6,4 +6,4 @@ razao = int(input("Digite a razão da P.A.: "))
 print("Os 10 primeiros termos da P.A. são:")
 for i in range(10):
     termo = primeiro_termo + i * razao
-    print(termo, end=" ")
+    print(termo, end=" -> ")
