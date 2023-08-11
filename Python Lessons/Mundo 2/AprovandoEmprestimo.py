@@ -1,6 +1,9 @@
 # Escreva um programa para aprovar o empréstimo bancário para a compra de uma casa. O programa vai perguntar o valor da casa, o salário do comprador e em quantos anos ele vai pagar.
 # Calcule o valor da prestação mensal, sabendo que ela não pode exceder 30% do salário ou então o empréstimo será negado.
 
+print('-=-' * 6)
+print('    EMPRÉSTIMO')
+print('-=-' * 6)
 # AQUI É PARA DEFINIR OS VALORES DA VARIÁVEIS 'VALOR', 'SALARIO', 'ANOS'.
 valor = float(input("Valor da casa: "))
 salario = float(input("Salário do comprador: "))
@@ -23,3 +26,7 @@ if valorM > n1:
     print("O empréstimo foi negado pois a prestação mensal é menor que seu salário.")
 else:
     print("O empréstimo foi aprovado.")
+
+print('-=-' * 10)
+print('      FIM DO EMPRÉSTIMO')
+print('-=-' * 10)
