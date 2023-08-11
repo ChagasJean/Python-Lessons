@@ -11,6 +11,10 @@ mh = 0
 nv = ''
 totm = 0
 
+print('-=-' * 10)
+print('     ANALISADOR DE GRUPO')
+print('-=-' * 10)
+
 for p in range(1, 5):
     print('----- {}ª PESSOA -----'.format(p))
     nome = str(input('Nome: ')).strip()
