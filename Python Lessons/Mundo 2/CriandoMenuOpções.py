@@ -1,0 +1,11 @@
+'''
+CRIE UM PROGRAMA QUE LEIA DOIS VALORES E MOSTRE UM MENU NA TELA:
+
+[1] Somar
+[2] Multiplicar
+[3] Maior
+[4] Novos números
+[0] Sair do programa
+
+SEU PROGRAMA DEVERÁ REALIZAR A OPERÇÃO SOLICITADA EM CADA CASO.
+'''
