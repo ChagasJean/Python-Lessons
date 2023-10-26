@@ -6,9 +6,13 @@ name = input("What's your name? ")
 
 count = len(name)
 
-if count <= 4:
+count1 = count <= 4
+count2 = count == 5 or count <= 6
+count3 = count > 6
+
+if count1:
     print('Your name is short!')
-elif count == 5 or count <= 6:
+elif count2:
     print('Your name is normal!')
-elif count > 6:
+elif count3:
     print('Your name is too big')

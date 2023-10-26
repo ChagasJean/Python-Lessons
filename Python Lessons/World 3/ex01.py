@@ -10,6 +10,6 @@ try:
     if num_int % 2 == 0:
         print('This number is even.')
     else:
-        print('This number is not even.')
+        print('This number is odd.')
 except:
     print('This number is not integer.')
